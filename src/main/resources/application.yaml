@@ -1,0 +1,5 @@
+cryptoSettings:
+  password: 'password #1'
+  algorithm: 'PBEWITHMD5ANDDES'
+  obtentionIterations: '1000'
+  outputType: 'hexadecimal'

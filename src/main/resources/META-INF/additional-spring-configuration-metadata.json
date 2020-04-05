@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "cryptoSettings.password",
+      "type": "java.lang.String",
+      "description": "Sets the password to be used."
+    },
+    {
+      "name": "cryptoSettings.algorithm",
+      "type": "java.lang.String",
+      "description": "Sets the algorithm to be used for encryption (MD2, MD5, SHA, SHA-256, SHA-384, SHA-512, PBEWITHMD5ANDDES, PBEWITHMD5ANDTRIPLEDES, PBEWITHSHA1ANDDESEDE, PBEWITHSHA1ANDRC2_40)."
+    },
+    {
+      "name": "cryptoSettings.obtentionIterations",
+      "type": "java.lang.String",
+      "description": "Set the number of hashing iterations applied to obtain the encryption key."
+    },
+    {
+      "name": "cryptoSettings.outputType",
+      "type": "java.lang.String",
+      "description": "Sets the the form in which String output will be encoded. Use only 'base64' or 'hexadecimal'."
+    }
+  ]
+}
